@@ -1,0 +1,24 @@
+{
+    "name": "manasahtech/data",
+    "description": "The ManasahTech Data package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Manasahtech\\Data\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RuyahTech, SLLC",
+            "email": "manasahtech@ruyahtech.com"
+        },
+        {
+            "name": "Abdullah Sowailem",
+            "email": "abdullah.sowailem@gmail.com"
+        }
+    ],
+    "require": {
+        "manasahtech/contracts": "^1.0"
+    }
+}
