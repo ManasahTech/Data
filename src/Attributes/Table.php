@@ -10,5 +10,5 @@ use Attribute;
 #[Attribute(Attribute::TARGET_CLASS)]
 final class Table implements MappingAttribute 
 {
-
+    public function __construct(public string $name) {}
 }
